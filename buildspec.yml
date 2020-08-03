@@ -1,0 +1,10 @@
+version 0.2
+
+phases:
+  install:
+    commands:
+      # Install dependencies needed for running tests
+      - npm install
+  build:
+    commands:
+      - npm run prod
