@@ -50,7 +50,7 @@ trait ResponseTrait
      */
     protected function respondWithError($response = '', $status = 500)
     {
-        return $this->respondWithData($response, 'error', $status);
+        return $this->respondWithData($response, 'message', $status);
     }
 
     /**
